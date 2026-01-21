@@ -12,9 +12,9 @@ def divisble_by_2(my_list=[]):
                 
                 multiples.append(true)
         
-        else:
+            else:
             
-            multiples.append(false)
+                multiples.append(false)
 
         
         return (multiples)
