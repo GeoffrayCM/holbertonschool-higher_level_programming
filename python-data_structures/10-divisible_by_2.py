@@ -2,7 +2,7 @@
 # 10-divisible_by_2.py
 
 def divisble_by_2(my_list=[]):
-        """finds all multiples of 2 in a list"""
+        """finds all multiples of 2 in a list."""
         
         multiples = []
         
