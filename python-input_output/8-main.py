@@ -27,12 +27,12 @@ mj = class_to_json(m)
 print(type(mj))
 print(mj)
 
-./8-main.py 
+./8-main.py
 <class '8-my_class.MyClass'>
 [MyClass] John - 89
 <class 'dict'>
 {'name': 'John', 'number': 89}
-cat 8-my_class_2.py 
+cat 8-my_class_2.py
 #!/usr/bin/python3
 """ My class module
 """
@@ -57,7 +57,7 @@ class MyClass:
     def __str__(self):
         return "[MyClass] {} - {:d} => {:d}".format(self.__name, self.number, self.score)
 
-cat 8-main_2.py 
+cat 8-main_2.py
 #!/usr/bin/python3
 MyClass = __import__('8-my_class_2').MyClass
 class_to_json = __import__('8-class_to_json').class_to_json
@@ -76,4 +76,3 @@ print(mj)
 [MyClass] John - 4 => 1
 <class 'dict'>
 {'number': 4, '_MyClass__name': 'John', 'is_team_red': True, 'score': 1}
-
