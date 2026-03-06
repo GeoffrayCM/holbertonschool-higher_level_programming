@@ -9,3 +9,4 @@ INSERT INTO states (name) VALUES ('Arizona');
 INSERT INTO states (name) VALUES ('Texas');
 INSERT INTO states (name) VALUES ('New York');
 INSERT INTO states (name) VALUES ('Nevada');
+
